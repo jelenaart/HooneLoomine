@@ -25,3 +25,4 @@ namespace HooneLoomine
             hoone.GetUks().NaitaInfo();
         }
     }
+}

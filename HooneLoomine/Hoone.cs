@@ -20,11 +20,19 @@ namespace HooneLoomine
             Pindala = pindala;
         }
 
+        public int HooneKorrus { get; set; }
+        public Uks(int korrus = 3)
+        {
+            HooneKorrus = korrus;
+        }
+
+
         public void NaitaInfo()
         {
             Console.WriteLine($"Mina olen maja, minu pindala on {Pindala} m2");
 
         }
+
     }
 
 }
