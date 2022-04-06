@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HooneLoomine
 {
-    public class EraMaja : Hoone
+    class EraMaja : Hoone
     {
         string suurus;
         int korrus;
@@ -34,7 +34,7 @@ namespace HooneLoomine
             set { korrus = value; }
             get { return korrus; }
         }
-        public void NaitaInfo()
+        public override void NaitaInfo()
         {
             Console.WriteLine($"Eramaja suurus on {suurus}, majal on {korrus} korruseid");
         }

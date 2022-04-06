@@ -16,7 +16,7 @@ namespace HooneLoomine
             this.nimi = nimi;
         }
 
-        public void NaitaInfo()
+        public override void NaitaInfo()
         {
             Console.WriteLine($"Mina olen inimene, nimu nimi on {nimi}");
             Console.WriteLine("Hoone info:");

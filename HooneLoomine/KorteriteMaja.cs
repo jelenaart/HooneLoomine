@@ -28,7 +28,7 @@ namespace HooneLoomine
                 trepikoda = "4 või rohkem trepikoda";
             }
         }
-        public void NaitaInfo()
+        public override void NaitaInfo()
         {
             Console.WriteLine($"Korterite majal on {trepikoda}");
         }

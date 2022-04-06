@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HooneLoomine
 {
-    public class Uks
+    public class Uks : Hoone
     {
         public string Color { get; set; }
 
@@ -14,7 +14,7 @@ namespace HooneLoomine
         {
             Color = color;
         }
-        public void NaitaInfo()
+        public override void NaitaInfo()
         {
             Console.WriteLine($"Mina olen uks, minu värv on {Color}");
         }
